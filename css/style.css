@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #140f07;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#conteiner{
+    background-color: #585bac;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#valores{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+#btn{
+    display: flex;
+    flex-direction: column;
+}
+.resultado{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #140f07;
+    position: absolute;
+    top: 250px;
+    right: 380px;
+    font-size: 100px;
+}
+
+
+
+
+.um{
+    background-image:url(/imagem/ez.jpg)
+}
+.dois{
+    background-image:url(/imagem/garen.jpg)
+}
+.tres{
+    background-image:url(/imagem/lucian.jpg)
+}
+.quatro{
+    background-image:url(/imagem/lux.jpg)
+}
+.cinco{
+    background-image:url(/imagem/thresh.jpg)
+}
+.seis{
+    background-image:url(/imagem/xinZhao.jpg)
+}
+.card{
+    background-image: none;
+    background-color: #fadcf6;
+    color: #fadcf6;
+    margin: 20px 10px;
+    width: 128px;
+    height: 128px;
+    border-radius: 10px;
+}
+.noCard{
+    margin: 20px 10px;
+    width: 128px;
+    height: 128px;
+    font-size: 0px;
+    border-radius: 10px;
+}
+
+
+button {
+
+    background-color: #212b53;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Estilização ao passar o mouse */
+  button:hover {
+    background-color: #9c96fb;
+  }
+  
+  /* Estilização ao clicar */
+  button:active {
+    background-color: #585bac;
+  }
+  
+
+.color1 {color: #140f07;}
+.color2 {color: #212b53;}
+.color3 {color: #585bac;}
+.color4 {color: #9c96fb;}
+.color5 {color: #fadcf6;}
+
